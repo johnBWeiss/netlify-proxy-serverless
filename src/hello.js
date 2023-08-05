@@ -7,7 +7,7 @@ export async function handler(event, context) {
   try {
     body = JSON.parse(event.body);
   } catch (error) {
-    // JSON parse failed, continue...
+    // JSON parse failed, continue....
   }
 
   // Ensure the environment is configured
